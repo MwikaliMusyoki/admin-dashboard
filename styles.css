@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+ }	
+
+ .container{ 
+    display: grid;
+    min-width: 100vw;
+    min-height: 100vh;
+    gap: 2rem;
+ }	
+ .side{ 
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border-style: solid;
+    border-color: blue;
+ }	
+ .top{ 
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border-style: solid;
+    border-color: greenyellow;
+ }	
+ .mid{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    border-style:solid;
+    border-color: red;
+  }	
